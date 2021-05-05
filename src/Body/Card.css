@@ -1,0 +1,15 @@
+.Card {
+  background-color: green;
+  width: 300px;
+}
+.Card > h1 {
+  background-color: greenyellow;
+}
+
+.Card > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
