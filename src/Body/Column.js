@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.css";
+import "./Column.css";
 
-export default function Card({ heading }) {
+export default function Column({ heading }) {
   return (
     <div className="Card">
       <h1>{heading}</h1>
