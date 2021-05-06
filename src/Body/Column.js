@@ -3,7 +3,7 @@ import "./Column.css";
 
 export default function Column({ heading }) {
   return (
-    <div className="Card">
+    <div className="Column">
       <h1>{heading}</h1>
       <ul>
         <li>

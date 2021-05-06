@@ -1,12 +1,12 @@
-.Card {
+.Column {
   background-color: green;
   width: 300px;
 }
-.Card > h1 {
+.Column > h1 {
   background-color: greenyellow;
 }
 
-.Card > ul {
+.Column > ul {
   list-style: none;
   display: flex;
   flex-direction: column;
