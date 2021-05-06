@@ -2,8 +2,8 @@ import React from "react";
 import { useState, useRef } from "react";
 import useComFocus from "./useComFocus";
 
-export default function NewTask({ task }) {
-  const [focus, setFocus] = useState(initialState);
+export default function NewTask({ onNewTask }) {
+  const [focus, setFocus] = useState(false);
 
   const component = useRef();
   useComFocus(component, () => setFocus(false));
@@ -15,7 +15,8 @@ export default function NewTask({ task }) {
     if (input.trim().length === 0) {
       return;
     }
-    task(input);
+    //create the new task
+    onNewTask(input);
     setFocus(false);
   };
 
