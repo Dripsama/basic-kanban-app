@@ -1,15 +1,15 @@
 import React from "react";
-import Card from "./Column";
+import Column from "./Column";
 import "./Body.css";
 
 export default function Body() {
   return (
     <div className="Body">
-      <Card heading="Backlog" />
-      <Card heading="To do" />
-      <Card heading="In Progress" />
-      <Card heading="Testing" />
-      <Card heading="Done" />
+      <Column heading="Backlog" />
+      <Column heading="To do" />
+      <Column heading="In Progress" />
+      <Column heading="Testing" />
+      <Column heading="Done" />
     </div>
   );
 }
