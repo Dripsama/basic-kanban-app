@@ -81,6 +81,7 @@ export default function Body() {
     };
 
     setData(newData);
+    // console.log(data);
   }
 
   return (
