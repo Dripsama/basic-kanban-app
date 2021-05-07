@@ -2,11 +2,11 @@
   background-color: green;
   width: 300px;
 }
-.Column > h1 {
+.TaskArea > h1 {
   background-color: greenyellow;
 }
 
-.Column > ul {
+.allTasks {
   list-style: none;
   display: flex;
   flex-direction: column;

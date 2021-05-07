@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useRef } from "react";
 import useComFocus from "./useComFocus";
 
-export default function NewTask({ onNewTask }) {
+export default function NewTask(props) {
   const [focus, setFocus] = useState(false);
 
   const component = useRef();
@@ -16,7 +16,7 @@ export default function NewTask({ onNewTask }) {
       return;
     }
     //create the new task
-    onNewTask(input);
+    props.onNewTask(input);
     setFocus(false);
   };
 
@@ -31,7 +31,7 @@ export default function NewTask({ onNewTask }) {
     }
   };
   return focus ? (
-    <div ref={component} isFocused={focus}>
+    <div ref={component} focus={focus}>
       <textarea
         onKeyDown={onKeyDown}
         id="inputTaskArea"
@@ -45,8 +45,8 @@ export default function NewTask({ onNewTask }) {
       </button>
     </div>
   ) : (
-    <div ref={component} isFocused={focus} onClick={() => setFocus(true)}>
-      <b>addicon</b>Add new task
+    <div ref={component} focus={focus} onClick={() => setFocus(true)}>
+      <b>addicon</b>
     </div>
   );
 }
