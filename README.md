@@ -1,3 +1,8 @@
+#Kanban-App
+The app provides 5 columns for priority of a task:
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
