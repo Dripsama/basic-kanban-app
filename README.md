@@ -3,7 +3,7 @@ The app provides 5 columns for priority of a task:
 Backlog, To-do, Doing, Testing, Done
 
 Uses the react-beautiful-dnd library: 
-[Here]https://www.npmjs.com/package/react-beautiful-dnd
+[Here](https://www.npmjs.com/package/react-beautiful-dnd)
 
 
 # Getting Started with Create React App
