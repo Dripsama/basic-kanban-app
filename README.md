@@ -1,3 +1,6 @@
+# Kanban-App
+The app provides 5 columns for priority of a task:
+Backlog, To-do, Doing, Testing, Done
 
 
 
