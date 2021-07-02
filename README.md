@@ -1,4 +1,5 @@
 # Kanban-App
+The app provides 5 columns for priority of a task:
 
 
 Uses the react-beautiful-dnd library: 
